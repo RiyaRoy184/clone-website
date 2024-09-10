@@ -1,0 +1,254 @@
+*{
+    margin: 0%;
+     padding: 0%;
+    
+}
+.first{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: rgb(252,155,171);
+    padding: 18px;
+}
+.p{
+    display: flex;
+    gap: 10px;
+    font-family: "Sevillana", system-ui;
+}
+.feature{
+    display: flex;
+}
+.feature .app{
+    display: flex;
+    margin-inline: 22px;
+}
+.feature .app i{
+    margin-inline: 8px;
+}
+.second{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 11px;
+}
+.second ul li img{
+    width: 8%;
+    margin-left: 22px;
+}
+.second ul li a{
+    margin-left: 22px;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: "Martian Mono", monospace;
+}
+.second .input{
+    display: flex;
+}
+.second .input button{
+    margin-inline: 22px;
+}
+.second .input input{
+   width: 220px;
+   background-color: rgb(225,217,217);
+   border: none;
+   outline: none;
+   text-align: center;
+   font-size: 16px;
+}
+.second .input button{
+    height: 35px;
+    width: 80px;
+    background-color: rgb(249,61,92);
+    color: white;
+    font-size: 17px;
+    border: none;
+    border-radius: 5px;
+}
+.item{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 5px;
+}
+.item ul li a{
+    list-style: none;
+   margin-inline: 22px;
+   text-align: center;
+   font-size: 18px;
+   font-family: "Martian Mono", monospace;
+}
+.item ul li button{
+   width: 100px;
+   height: 34px;
+   background-color: rgb(249,61 , 92);
+   color: white;
+   font-size: 17px;
+   border: none;
+   border-radius: 5px;
+}
+.items ul li{
+    list-style:none;
+}
+.main-page img{
+    width: 100%;
+}
+.pink img{
+    width: 100%;
+}
+.pink h2{
+    text-align: center;
+    padding: 7px;
+}
+.h{
+    font-family: "Fascinate Inline", system-ui;
+    font-weight: 800;
+}
+.brands h2{
+    text-align: center;
+}
+.card{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 33px;
+}
+.card img{
+    margin-inline: 22px;
+    width: 44%;
+}
+.brands h2{
+    text-align: center;
+    padding: 22px;
+}
+.top{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+.top img{
+    margin-inline: 22px;
+    width: 44%;
+}
+.only-nykaa h2{
+   text-align: center;
+   padding: 22px;
+}
+.only-nykaa .only{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+.only img{
+    width: 44%;
+    margin-inline: 22px;
+}
+.makeup{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 42px;
+}
+.makeup img{
+    width: 22%;
+    margin-inline: 18px;
+}
+.special h2{
+    text-align: center;
+    padding: 22px;
+}
+.special .curation{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+.curation img{
+    margin-inline: 22px;
+    width: 44%;
+}
+.beauty h2{
+    text-align: center;
+    padding: 22px;
+}
+.beauty .advice{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+.advice img{
+    margin-inline: 22px;
+    width: 44%;
+}
+.footer{
+    height: 200px;
+    margin-top: 50px;
+    color: white;
+    align-items: center;
+    display:flex;
+    justify-content: center;
+    justify-content: space-around;
+    background-color:rgb(152,147, 147);
+}
+.contents {
+    list-style-type: none; 
+    padding: 0;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center; 
+}
+.contents li {
+    margin: 0 1rem; 
+}
+@media (max-width:760px){
+    .feature .app{
+        display: flex;
+        margin-inline: 11px;
+    }
+    .feature .app i{
+        margin-inline: 8px;
+    }
+    .second{
+        display: flex;
+        justify-content: center;
+        justify-content: space-around;
+        padding: 5px;
+        background-color: hotpink;
+    }
+    .second ul li img{
+        width: 5px;
+        margin-left: 11px;
+    }
+    .second ul li a{
+        height: 50px;
+        margin-left: 11px;
+        font-size: 20px;
+        font-weight: 600;
+        font-family: "Martian Mono", monospace;
+    }
+    .second .input{
+        display: flex;
+    }
+    .second .input button{
+        margin-inline: 11px;
+    }
+    .second .input input{
+       width: 110px;
+       background-color: rgb(225,217,217);
+       border: none;
+       outline: none;
+       text-align: center;
+       font-size: 8px;
+    }
+    .makeup{
+        display: block;
+        justify-content: center;
+        justify-content: space-around;
+        padding: 22px;
+    }
+    .footer{
+        display: block;
+        height: 600px;
+    }
+    .contents{
+        display: block;
+    }
+}
